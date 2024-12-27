@@ -11,7 +11,6 @@ A machine learning project that uses **Principal Component Analysis (PCA)** for 
 4. [Prerequisites & Installation](#prerequisites--installation)
 5. [Usage](#usage)
 6. [Results](#results)
-7. [Contributing](#contributing)
 8. [License](#license)
 
 ---
@@ -77,15 +76,6 @@ Digit Predicted →  0    1    2    ...   9
         2          0    1   568   ...   3
         ...
         9          1    0    0    ...  570
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Fork the project.
-Create a new branch for your feature: git checkout -b feature/your-feature
-Commit your changes: git commit -m 'Add some feature'
-Push to the branch: git push origin feature/your-feature
-Open a Pull Request.
 
 
 ## License
