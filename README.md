@@ -50,3 +50,43 @@ mnist = fetch_openml('mnist_784', version=1)
 X, y = mnist.data, mnist.target
 
 ![Sample MNIST Digits](sample_mnist_digits.png)
+
+ ## Prerequisites & Installation
+ 1. Clone the repository
+ 2. Create and activate a virtual environment (optional but recommended
+ 3. Install dependencies
+
+ ## Usage
+Run the Jupyter Notebook
+Navigate to notebooks/model-training.ipynb to see the step-by-step process:
+
+Load MNIST data.
+Perform PCA (tune the number of components).
+Train and evaluate the Random Forest Classifier.
+Hyperparameter Tuning
+You can adjust hyperparameters of the Random Forest (e.g., n_estimators, max_depth) in the notebook or in src/random_forest.py.
+
+Visualizing PCA
+PCA can help visualize data in 2D or 3D. You can see the variance ratio plot in images/pca_variance_plot.png (placeholder example):
+
+## Results
+Once the model is trained, you can evaluate its performance using metrics like accuracy, precision, recall,
+Digit Predicted →  0    1    2    ...   9
+        0         578   0    1    ...   0
+        1          0   660   2    ...   0
+        2          0    1   568   ...   3
+        ...
+        9          1    0    0    ...  570
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Fork the project.
+Create a new branch for your feature: git checkout -b feature/your-feature
+Commit your changes: git commit -m 'Add some feature'
+Push to the branch: git push origin feature/your-feature
+Open a Pull Request.
+
+
+## License
+This project is licensed under the MIT License. Feel free to use and modify the code in your own projects.
