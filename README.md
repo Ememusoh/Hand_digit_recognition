@@ -38,7 +38,7 @@ X, y = mnist.data, mnist.target
  3. Install dependencies
  ---
 ## Results
-Once the model is trained, you can evaluate its performance using metrics like accuracy, precision, recall,
+Once the model is trained, I evaluated its performance using metrics like accuracy(0.9126), precision(0.9416), recall(0.9524).
 Digit Predicted →  0    1    2    ...   9
 
 ![Confusion Matrix](Confusion_Matrix.png)
