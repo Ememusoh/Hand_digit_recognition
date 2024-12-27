@@ -1,7 +1,7 @@
 # MNIST Handwritten Digit Recognizer
 
 A machine learning project that uses **Principal Component Analysis (PCA)** for dimensionality reduction and a **Random Forest Classifier** to recognize handwritten digits from the MNIST dataset.
----
+
 ## Overview
 The MNIST dataset contains 70,000 grayscale images of handwritten digits (0–9), each of size 28x28 pixels. This project demonstrates how to:
 1. Load and preprocess the data (flattening images and splitting into train/test sets).
