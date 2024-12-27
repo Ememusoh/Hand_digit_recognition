@@ -19,7 +19,7 @@ The MNIST dataset contains 70,000 grayscale images of handwritten digits (0–9)
              |    reduce    |-----------------------+
              +--------------+
 *(Above: High-level flow of the pipeline.)*
----
+
 ## Data
 The MNIST dataset was from  machine learning libraries ( `sklearn.datasets`) but can also  be downloaded from [MNIST Official Website](https://www.kaggle.com/datasets/scolianni/mnistasjpg?resource=download) 
  Typically, it is loaded with:
@@ -29,12 +29,12 @@ from sklearn.datasets import fetch_openml
 mnist = fetch_openml('mnist_784', version=1)
 X, y = mnist.data, mnist.target
 ```
-![Sample Image](test.jpg)
+![Sample Image](MNIST-handwritten-digit.PNG)
 --
----
+
  ## Prerequisites & Installation
  1. Clone the repository
- 2. Create and activate a virtual environment (optional but recommended
+ 2. Create and activate a virtual environment (optional but recommended)
  3. Install dependencies
  ---
 ## Results
@@ -42,7 +42,6 @@ Once the model is trained, I evaluated its performance using metrics like accura
 Digit Predicted →  0    1    2    ...   9
 
 ![Confusion Matrix](Confusion_Matrix.png)
----
+
 ## License
 This project is licensed under the MIT License. Feel free to use and modify the code in your own projects.
----
